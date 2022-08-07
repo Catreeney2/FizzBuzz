@@ -1,0 +1,13 @@
+FizzBuzz = ""
+for i in range(1,101):
+  if i%15 == 0:
+    FizzBuzz +=("\n" + "FizzBuzz")
+    continue
+  if i%3 == 0:
+    FizzBuzz += ("\n" + "Fizz")
+  if i%5 == 0:
+    FizzBuzz += ("\n" + "Buzz")
+  else: 
+    FizzBuzz += ("\n" + str(i))
+
+print(FizzBuzz)
