@@ -5,8 +5,10 @@ for i in range(1,101):
     continue
   if i%3 == 0:
     FizzBuzz += ("\n" + "Fizz")
+    continue
   if i%5 == 0:
     FizzBuzz += ("\n" + "Buzz")
+    continue
   else: 
     FizzBuzz += ("\n" + str(i))
 
