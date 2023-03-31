@@ -13,4 +13,4 @@ for i in range(1,101):
     FizzBuzz += ("\n" + str(i))
 
 print(FizzBuzz)
-# Edit no.1
+
